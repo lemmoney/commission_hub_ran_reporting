@@ -7,7 +7,7 @@ module CommissionHub
 
         def call(request_params={})
           request_params = request_params.merge({token: report_token})
-          connection.class.get("#{uri}?#{to_query_string(request_params)}")
+          connection.class.get("#{full_uri}?#{to_query_string(request_params)}")
         end
 
         private
