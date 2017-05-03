@@ -1,0 +1,6 @@
+require "commission_hub"
+
+require "commission_hub/rakuten_affiliate_network_reporting/api_access"
+require "commission_hub/rakuten_affiliate_network_reporting/endpoints/base"
+require "commission_hub/rakuten_affiliate_network_reporting/connection"
+require "commission_hub/rakuten_affiliate_network_reporting/settings"
